@@ -1,0 +1,706 @@
+2023-08-20 20:01:55,450 INFO RPC interface 'supervisor' initialized
+2023-08-20 20:01:55,451 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-20 20:01:55,451 INFO supervisord started with pid 1
+2023-08-20 20:01:56,456 INFO spawned: 'nginx' with pid 7
+2023-08-20 20:01:56,458 INFO spawned: 'php-fpm' with pid 8
+2023-08-20 20:01:56,464 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:01:56,533 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:01:57,536 INFO spawned: 'nginx' with pid 9
+2023-08-20 20:01:57,538 INFO spawned: 'php-fpm' with pid 10
+2023-08-20 20:01:57,543 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:01:57,560 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:01:59,563 INFO spawned: 'nginx' with pid 11
+2023-08-20 20:01:59,565 INFO spawned: 'php-fpm' with pid 12
+2023-08-20 20:01:59,569 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:01:59,584 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:02:02,589 INFO spawned: 'nginx' with pid 13
+2023-08-20 20:02:02,591 INFO spawned: 'php-fpm' with pid 14
+2023-08-20 20:02:02,595 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:02:02,607 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-08-20 20:02:02,611 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:02:03,613 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-08-20 20:03:01,678 INFO reaped unknown pid 314 (exit status 0)
+2023-08-20 20:06:06,861 INFO reaped unknown pid 407 (exit status 0)
+2023-08-20 20:13:25,796 INFO spawned: 'nginx' with pid 423
+2023-08-20 20:13:25,798 INFO spawned: 'php-fpm' with pid 424
+2023-08-20 20:13:25,803 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:13:25,838 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:13:26,841 INFO spawned: 'nginx' with pid 425
+2023-08-20 20:13:26,842 INFO spawned: 'php-fpm' with pid 426
+2023-08-20 20:13:26,847 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:13:26,862 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:13:28,866 INFO spawned: 'nginx' with pid 427
+2023-08-20 20:13:28,867 INFO spawned: 'php-fpm' with pid 428
+2023-08-20 20:13:28,872 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:13:28,887 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:13:31,892 INFO spawned: 'nginx' with pid 429
+2023-08-20 20:13:31,894 INFO spawned: 'php-fpm' with pid 430
+2023-08-20 20:13:31,898 WARN exited: nginx (exit status 1; not expected)
+2023-08-20 20:13:31,912 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-08-20 20:13:31,917 WARN exited: php-fpm (exit status 78; not expected)
+2023-08-20 20:13:32,919 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-08-20 20:14:02,955 WARN received SIGQUIT indicating exit request
+2023-08-20 20:14:03,752 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-20 20:14:03,755 INFO RPC interface 'supervisor' initialized
+2023-08-20 20:14:03,755 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-20 20:14:03,756 INFO supervisord started with pid 1
+2023-08-20 20:14:04,757 INFO spawned: 'nginx' with pid 7
+2023-08-20 20:14:04,759 INFO spawned: 'php-fpm' with pid 8
+2023-08-20 20:14:05,779 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-20 20:14:05,779 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-20 20:16:55,990 INFO reaped unknown pid 73 (exit status 0)
+2023-08-20 20:17:12,009 INFO reaped unknown pid 122 (exit status 0)
+2023-08-20 20:20:55,273 INFO reaped unknown pid 152 (exit status 0)
+2023-08-20 20:22:03,346 INFO reaped unknown pid 182 (exit status 0)
+2023-08-20 20:24:07,964 INFO reaped unknown pid 217 (exit status 0)
+2023-08-20 20:24:45,010 WARN received SIGQUIT indicating exit request
+2023-08-20 20:24:45,010 INFO waiting for nginx, php-fpm to die
+2023-08-20 20:24:45,015 INFO stopped: php-fpm (exit status 0)
+2023-08-20 20:24:45,085 INFO stopped: nginx (exit status 0)
+2023-08-20 20:28:47,780 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-20 20:28:47,784 INFO RPC interface 'supervisor' initialized
+2023-08-20 20:28:47,784 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-20 20:28:47,784 INFO supervisord started with pid 1
+2023-08-20 20:28:48,787 INFO spawned: 'nginx' with pid 7
+2023-08-20 20:28:48,789 INFO spawned: 'php-fpm' with pid 8
+2023-08-20 20:28:49,807 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-20 20:28:49,807 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-20 20:28:56,816 INFO reaped unknown pid 46 (exit status 0)
+2023-08-20 20:30:39,932 INFO reaped unknown pid 101 (exit status 0)
+2023-08-20 20:31:11,975 INFO reaped unknown pid 133 (exit status 0)
+2023-08-20 20:34:01,159 INFO reaped unknown pid 217 (exit status 0)
+2023-08-20 20:35:45,265 INFO reaped unknown pid 295 (exit status 0)
+2023-08-20 20:35:54,278 INFO reaped unknown pid 328 (exit status 0)
+2023-08-20 20:36:26,310 INFO reaped unknown pid 358 (exit status 0)
+2023-08-20 20:39:24,513 INFO reaped unknown pid 392 (exit status 0)
+2023-08-20 20:39:30,520 INFO reaped unknown pid 425 (exit status 0)
+2023-08-20 20:42:39,739 INFO reaped unknown pid 456 (exit status 0)
+2023-08-20 22:54:37,867 INFO reaped unknown pid 492 (terminated by SIGINT)
+2023-08-20 22:54:46,881 WARN received SIGQUIT indicating exit request
+2023-08-20 22:54:46,891 INFO waiting for nginx, php-fpm to die
+2023-08-20 22:54:46,907 INFO stopped: php-fpm (exit status 0)
+2023-08-20 22:54:46,999 INFO stopped: nginx (exit status 0)
+2023-08-20 23:47:39,044 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-20 23:47:39,051 INFO RPC interface 'supervisor' initialized
+2023-08-20 23:47:39,051 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-20 23:47:39,052 INFO supervisord started with pid 1
+2023-08-20 23:47:40,054 INFO spawned: 'nginx' with pid 7
+2023-08-20 23:47:40,056 INFO spawned: 'php-fpm' with pid 8
+2023-08-20 23:47:41,172 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-20 23:47:41,172 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-20 23:51:09,404 WARN received SIGQUIT indicating exit request
+2023-08-20 23:51:09,405 INFO waiting for nginx, php-fpm to die
+2023-08-20 23:51:09,413 INFO stopped: php-fpm (exit status 0)
+2023-08-20 23:51:09,525 INFO stopped: nginx (exit status 0)
+2023-08-24 21:41:05,324 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-24 21:41:05,330 INFO RPC interface 'supervisor' initialized
+2023-08-24 21:41:05,331 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-24 21:41:05,331 INFO supervisord started with pid 1
+2023-08-24 21:41:06,335 INFO spawned: 'nginx' with pid 8
+2023-08-24 21:41:06,337 INFO spawned: 'php-fpm' with pid 9
+2023-08-24 21:41:07,467 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-24 21:41:07,467 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-24 21:52:13,206 INFO reaped unknown pid 47 (terminated by SIGINT)
+2023-08-24 23:06:12,130 INFO reaped unknown pid 111 (terminated by SIGINT)
+2023-08-24 23:20:40,187 WARN received SIGQUIT indicating exit request
+2023-08-24 23:20:40,195 INFO waiting for nginx, php-fpm to die
+2023-08-24 23:20:40,221 INFO stopped: php-fpm (exit status 0)
+2023-08-24 23:20:40,301 INFO stopped: nginx (exit status 0)
+2023-08-25 20:35:18,577 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-25 20:35:18,584 INFO RPC interface 'supervisor' initialized
+2023-08-25 20:35:18,584 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-25 20:35:18,585 INFO supervisord started with pid 1
+2023-08-25 20:35:19,589 INFO spawned: 'nginx' with pid 7
+2023-08-25 20:35:19,592 INFO spawned: 'php-fpm' with pid 8
+2023-08-25 20:35:20,716 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-25 20:35:20,716 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-25 20:39:56,033 INFO reaped unknown pid 51 (terminated by SIGINT)
+2023-08-25 20:42:07,176 INFO reaped unknown pid 99 (terminated by SIGINT)
+2023-08-25 23:49:58,931 WARN received SIGQUIT indicating exit request
+2023-08-25 23:49:58,990 INFO waiting for nginx, php-fpm to die
+2023-08-25 23:49:59,032 INFO stopped: php-fpm (exit status 0)
+2023-08-25 23:49:59,238 INFO stopped: nginx (exit status 0)
+2023-08-26 13:44:30,313 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-26 13:44:30,320 INFO RPC interface 'supervisor' initialized
+2023-08-26 13:44:30,320 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2023-08-26 13:44:30,320 INFO supervisord started with pid 1
+2023-08-26 13:44:31,324 INFO spawned: 'nginx' with pid 7
+2023-08-26 13:44:31,326 INFO spawned: 'php-fpm' with pid 8
+2023-08-26 13:44:32,458 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-26 13:44:32,459 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-26 13:58:05,346 INFO reaped unknown pid 47 (terminated by SIGINT)
+2023-08-26 13:58:16,358 INFO reaped unknown pid 142 (terminated by SIGINT)
+2023-08-26 17:57:51,972 WARN received SIGQUIT indicating exit request
+2023-08-26 17:57:51,982 INFO waiting for nginx, php-fpm to die
+2023-08-26 17:57:52,024 INFO stopped: php-fpm (exit status 0)
+2023-08-26 17:57:52,121 INFO stopped: nginx (exit status 0)
+2024-03-12 10:05:06,002 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 10:05:06,015 INFO RPC interface 'supervisor' initialized
+2024-03-12 10:05:06,015 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 10:05:06,016 INFO supervisord started with pid 1
+2024-03-12 10:05:07,018 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 10:05:08,119 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 10:15:42,838 WARN received SIGQUIT indicating exit request
+2024-03-12 10:15:42,839 INFO waiting for php-fpm to die
+2024-03-12 10:15:42,847 INFO stopped: php-fpm (exit status 0)
+2024-03-12 10:15:43,757 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 10:15:43,767 INFO RPC interface 'supervisor' initialized
+2024-03-12 10:15:43,767 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 10:15:43,767 INFO supervisord started with pid 1
+2024-03-12 10:15:44,769 INFO spawned: 'php-fpm' with pid 7
+2024-03-12 10:15:45,787 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 10:16:17,820 WARN received SIGQUIT indicating exit request
+2024-03-12 10:16:17,821 INFO waiting for php-fpm to die
+2024-03-12 10:16:17,824 INFO stopped: php-fpm (exit status 0)
+2024-03-12 10:22:12,664 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 10:22:12,669 INFO RPC interface 'supervisor' initialized
+2024-03-12 10:22:12,669 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 10:22:12,669 INFO supervisord started with pid 1
+2024-03-12 10:22:13,672 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 10:22:14,687 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 10:25:51,926 INFO reaped unknown pid 29 (exit status 0)
+2024-03-12 10:36:08,565 WARN received SIGQUIT indicating exit request
+2024-03-12 10:36:08,567 INFO waiting for php-fpm to die
+2024-03-12 10:36:08,571 INFO stopped: php-fpm (exit status 0)
+2024-03-12 10:36:09,466 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 10:36:09,474 INFO RPC interface 'supervisor' initialized
+2024-03-12 10:36:09,474 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 10:36:09,475 INFO supervisord started with pid 1
+2024-03-12 10:36:10,477 INFO spawned: 'php-fpm' with pid 7
+2024-03-12 10:36:11,497 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 10:41:10,827 WARN received SIGQUIT indicating exit request
+2024-03-12 10:41:10,827 INFO waiting for php-fpm to die
+2024-03-12 10:41:10,831 INFO stopped: php-fpm (exit status 0)
+2024-03-12 10:41:11,896 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 10:41:11,900 INFO RPC interface 'supervisor' initialized
+2024-03-12 10:41:11,900 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 10:41:11,900 INFO supervisord started with pid 1
+2024-03-12 10:41:12,902 INFO spawned: 'php-fpm' with pid 9
+2024-03-12 10:41:13,917 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 10:55:57,857 WARN received SIGQUIT indicating exit request
+2024-03-12 10:55:57,857 INFO waiting for php-fpm to die
+2024-03-12 10:55:57,862 INFO stopped: php-fpm (exit status 0)
+2024-03-12 10:55:59,349 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 10:55:59,357 INFO RPC interface 'supervisor' initialized
+2024-03-12 10:55:59,357 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 10:55:59,357 INFO supervisord started with pid 1
+2024-03-12 10:56:00,360 INFO spawned: 'php-fpm' with pid 7
+2024-03-12 10:56:01,375 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:40:04,213 WARN received SIGQUIT indicating exit request
+2024-03-12 11:40:04,214 INFO waiting for php-fpm to die
+2024-03-12 11:40:04,217 INFO stopped: php-fpm (exit status 0)
+2024-03-12 11:40:05,473 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 11:40:05,477 INFO RPC interface 'supervisor' initialized
+2024-03-12 11:40:05,477 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 11:40:05,478 INFO supervisord started with pid 1
+2024-03-12 11:40:06,481 INFO spawned: 'php-fpm' with pid 7
+2024-03-12 11:40:07,497 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:22,076 WARN received SIGQUIT indicating exit request
+2024-03-12 11:49:22,077 INFO waiting for php-fpm to die
+2024-03-12 11:49:22,080 INFO stopped: php-fpm (exit status 0)
+2024-03-12 11:49:22,903 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 11:49:22,908 INFO RPC interface 'supervisor' initialized
+2024-03-12 11:49:22,908 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 11:49:22,908 INFO supervisord started with pid 1
+2024-03-12 11:49:23,913 INFO spawned: 'nginx' with pid 7
+2024-03-12 11:49:23,915 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 11:49:23,936 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 11:49:24,940 INFO spawned: 'nginx' with pid 18
+2024-03-12 11:49:24,941 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:25,948 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:27,448 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:28,451 INFO spawned: 'nginx' with pid 19
+2024-03-12 11:49:29,459 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:30,960 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:31,963 INFO spawned: 'nginx' with pid 20
+2024-03-12 11:49:32,970 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:34,472 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:35,475 INFO spawned: 'nginx' with pid 21
+2024-03-12 11:49:36,482 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:37,984 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:38,987 INFO spawned: 'nginx' with pid 22
+2024-03-12 11:49:39,994 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:41,496 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:42,499 INFO spawned: 'nginx' with pid 23
+2024-03-12 11:49:43,506 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:45,009 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:45,011 INFO spawned: 'nginx' with pid 24
+2024-03-12 11:49:46,019 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:47,520 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:48,522 INFO spawned: 'nginx' with pid 25
+2024-03-12 11:49:49,530 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:51,032 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:52,035 INFO spawned: 'nginx' with pid 26
+2024-03-12 11:49:53,042 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:54,543 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:55,546 INFO spawned: 'nginx' with pid 27
+2024-03-12 11:49:56,553 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:49:58,055 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:49:59,058 INFO spawned: 'nginx' with pid 28
+2024-03-12 11:50:00,067 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:01,568 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:02,570 INFO spawned: 'nginx' with pid 29
+2024-03-12 11:50:03,578 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:05,079 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:06,082 INFO spawned: 'nginx' with pid 30
+2024-03-12 11:50:07,089 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:08,591 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:09,593 INFO spawned: 'nginx' with pid 31
+2024-03-12 11:50:10,601 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:12,103 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:13,104 INFO spawned: 'nginx' with pid 32
+2024-03-12 11:50:14,112 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:15,613 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:16,616 INFO spawned: 'nginx' with pid 33
+2024-03-12 11:50:17,626 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:19,125 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:20,129 INFO spawned: 'nginx' with pid 34
+2024-03-12 11:50:21,136 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:22,636 WARN received SIGQUIT indicating exit request
+2024-03-12 11:50:22,637 INFO waiting for nginx, php-fpm to die
+2024-03-12 11:50:22,637 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:22,640 INFO stopped: php-fpm (exit status 0)
+2024-03-12 11:50:53,070 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 11:50:53,073 INFO RPC interface 'supervisor' initialized
+2024-03-12 11:50:53,074 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 11:50:53,074 INFO supervisord started with pid 1
+2024-03-12 11:50:54,076 INFO spawned: 'nginx' with pid 7
+2024-03-12 11:50:54,078 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 11:50:54,087 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 11:50:55,096 INFO spawned: 'nginx' with pid 11
+2024-03-12 11:50:55,097 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:56,103 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:50:57,605 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:50:58,608 INFO spawned: 'nginx' with pid 12
+2024-03-12 11:50:59,614 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:01,116 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:02,119 INFO spawned: 'nginx' with pid 13
+2024-03-12 11:51:03,126 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:03,126 WARN received SIGQUIT indicating exit request
+2024-03-12 11:51:03,126 INFO waiting for nginx, php-fpm to die
+2024-03-12 11:51:03,130 INFO stopped: php-fpm (exit status 0)
+2024-03-12 11:51:03,130 WARN stopped: nginx (terminated by SIGTERM)
+2024-03-12 11:51:08,180 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 11:51:08,184 INFO RPC interface 'supervisor' initialized
+2024-03-12 11:51:08,184 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 11:51:08,184 INFO supervisord started with pid 1
+2024-03-12 11:51:09,186 INFO spawned: 'nginx' with pid 17
+2024-03-12 11:51:09,188 INFO spawned: 'php-fpm' with pid 18
+2024-03-12 11:51:09,193 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 11:51:10,203 INFO spawned: 'nginx' with pid 21
+2024-03-12 11:51:10,203 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:11,210 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:12,712 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:13,715 INFO spawned: 'nginx' with pid 23
+2024-03-12 11:51:14,723 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:16,225 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:17,227 INFO spawned: 'nginx' with pid 25
+2024-03-12 11:51:18,234 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:19,735 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:20,737 INFO spawned: 'nginx' with pid 29
+2024-03-12 11:51:21,744 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:23,245 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:24,247 INFO spawned: 'nginx' with pid 30
+2024-03-12 11:51:25,254 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:26,757 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:27,760 INFO spawned: 'nginx' with pid 31
+2024-03-12 11:51:28,767 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:30,269 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:31,272 INFO spawned: 'nginx' with pid 38
+2024-03-12 11:51:32,279 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:33,780 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:34,783 INFO spawned: 'nginx' with pid 41
+2024-03-12 11:51:35,790 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:37,292 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:38,295 INFO spawned: 'nginx' with pid 42
+2024-03-12 11:51:39,302 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:40,804 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:41,807 INFO spawned: 'nginx' with pid 44
+2024-03-12 11:51:42,815 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:44,317 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:45,320 INFO spawned: 'nginx' with pid 45
+2024-03-12 11:51:46,326 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:47,828 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:48,831 INFO spawned: 'nginx' with pid 46
+2024-03-12 11:51:49,838 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:51,339 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:52,343 INFO spawned: 'nginx' with pid 48
+2024-03-12 11:51:53,352 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:54,853 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:55,856 INFO spawned: 'nginx' with pid 49
+2024-03-12 11:51:56,863 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:51:58,364 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:51:59,367 INFO spawned: 'nginx' with pid 50
+2024-03-12 11:52:00,375 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:01,877 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:02,880 INFO spawned: 'nginx' with pid 51
+2024-03-12 11:52:03,888 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:05,389 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:06,391 INFO spawned: 'nginx' with pid 52
+2024-03-12 11:52:07,399 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:08,901 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:09,903 INFO spawned: 'nginx' with pid 53
+2024-03-12 11:52:10,910 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:12,412 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:13,415 INFO spawned: 'nginx' with pid 54
+2024-03-12 11:52:14,421 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:15,922 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:16,924 INFO spawned: 'nginx' with pid 55
+2024-03-12 11:52:17,931 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:19,432 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:20,435 INFO spawned: 'nginx' with pid 56
+2024-03-12 11:52:21,442 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:22,944 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:23,946 INFO spawned: 'nginx' with pid 57
+2024-03-12 11:52:24,954 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:26,456 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:27,458 INFO spawned: 'nginx' with pid 58
+2024-03-12 11:52:28,466 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:29,967 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:52:30,970 INFO spawned: 'nginx' with pid 59
+2024-03-12 11:52:31,977 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:52:32,977 WARN received SIGQUIT indicating exit request
+2024-03-12 11:52:32,978 INFO waiting for nginx, php-fpm to die
+2024-03-12 11:52:32,981 INFO stopped: php-fpm (exit status 0)
+2024-03-12 11:52:32,982 WARN stopped: nginx (terminated by SIGTERM)
+2024-03-12 11:57:32,730 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 11:57:32,733 INFO RPC interface 'supervisor' initialized
+2024-03-12 11:57:32,733 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 11:57:32,733 INFO supervisord started with pid 1
+2024-03-12 11:57:33,736 INFO spawned: 'nginx' with pid 9
+2024-03-12 11:57:33,738 INFO spawned: 'php-fpm' with pid 10
+2024-03-12 11:57:33,743 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 11:57:34,752 INFO spawned: 'nginx' with pid 13
+2024-03-12 11:57:34,753 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:35,760 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:37,261 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:38,264 INFO spawned: 'nginx' with pid 14
+2024-03-12 11:57:39,270 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:40,772 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:41,775 INFO spawned: 'nginx' with pid 15
+2024-03-12 11:57:42,781 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:44,282 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:45,284 INFO spawned: 'nginx' with pid 16
+2024-03-12 11:57:46,293 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:47,794 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:48,796 INFO spawned: 'nginx' with pid 17
+2024-03-12 11:57:49,805 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:51,306 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:52,308 INFO spawned: 'nginx' with pid 18
+2024-03-12 11:57:53,315 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:54,816 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:55,819 INFO spawned: 'nginx' with pid 19
+2024-03-12 11:57:56,826 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:57:58,328 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:57:59,330 INFO spawned: 'nginx' with pid 20
+2024-03-12 11:58:00,337 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:01,838 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:02,841 INFO spawned: 'nginx' with pid 21
+2024-03-12 11:58:03,847 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:05,348 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:06,351 INFO spawned: 'nginx' with pid 22
+2024-03-12 11:58:07,359 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:08,861 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:09,864 INFO spawned: 'nginx' with pid 23
+2024-03-12 11:58:10,871 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:12,372 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:13,375 INFO spawned: 'nginx' with pid 24
+2024-03-12 11:58:14,382 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:15,884 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:16,886 INFO spawned: 'nginx' with pid 25
+2024-03-12 11:58:17,895 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:19,396 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:20,399 INFO spawned: 'nginx' with pid 26
+2024-03-12 11:58:21,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:22,907 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:23,909 INFO spawned: 'nginx' with pid 27
+2024-03-12 11:58:24,916 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:26,417 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:27,418 INFO spawned: 'nginx' with pid 28
+2024-03-12 11:58:28,425 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:29,927 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:30,930 INFO spawned: 'nginx' with pid 29
+2024-03-12 11:58:31,937 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:33,438 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:34,441 INFO spawned: 'nginx' with pid 30
+2024-03-12 11:58:35,448 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:36,949 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:37,952 INFO spawned: 'nginx' with pid 31
+2024-03-12 11:58:38,959 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:40,461 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:41,463 INFO spawned: 'nginx' with pid 32
+2024-03-12 11:58:42,470 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:43,971 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:44,972 INFO spawned: 'nginx' with pid 33
+2024-03-12 11:58:45,979 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:47,480 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:48,483 INFO spawned: 'nginx' with pid 34
+2024-03-12 11:58:49,491 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 11:58:50,993 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 11:58:51,997 INFO spawned: 'nginx' with pid 35
+2024-03-12 11:58:52,504 WARN received SIGQUIT indicating exit request
+2024-03-12 11:58:52,504 INFO waiting for nginx, php-fpm to die
+2024-03-12 11:58:52,508 INFO stopped: php-fpm (exit status 0)
+2024-03-12 11:58:52,509 WARN stopped: nginx (terminated by SIGTERM)
+2024-03-12 12:01:42,348 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 12:01:42,351 INFO RPC interface 'supervisor' initialized
+2024-03-12 12:01:42,351 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 12:01:42,352 INFO supervisord started with pid 1
+2024-03-12 12:01:43,354 INFO spawned: 'nginx' with pid 7
+2024-03-12 12:01:43,356 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 12:01:43,361 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 12:01:44,372 INFO spawned: 'nginx' with pid 11
+2024-03-12 12:01:44,373 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:01:45,379 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:01:46,880 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:01:47,882 INFO spawned: 'nginx' with pid 12
+2024-03-12 12:01:48,889 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:01:50,391 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:01:51,393 INFO spawned: 'nginx' with pid 13
+2024-03-12 12:01:52,401 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:01:53,902 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:01:54,905 INFO spawned: 'nginx' with pid 14
+2024-03-12 12:01:54,906 WARN received SIGQUIT indicating exit request
+2024-03-12 12:01:54,906 INFO waiting for nginx, php-fpm to die
+2024-03-12 12:01:54,911 INFO stopped: php-fpm (exit status 0)
+2024-03-12 12:01:54,911 WARN stopped: nginx (terminated by SIGTERM)
+2024-03-12 12:01:55,715 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 12:01:55,718 INFO RPC interface 'supervisor' initialized
+2024-03-12 12:01:55,719 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 12:01:55,719 INFO supervisord started with pid 1
+2024-03-12 12:01:56,721 INFO spawned: 'nginx' with pid 7
+2024-03-12 12:01:56,723 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 12:01:56,729 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 12:01:57,738 INFO spawned: 'nginx' with pid 11
+2024-03-12 12:01:57,739 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:01:58,745 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:00,247 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:01,250 INFO spawned: 'nginx' with pid 12
+2024-03-12 12:02:02,257 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:03,758 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:04,760 INFO spawned: 'nginx' with pid 23
+2024-03-12 12:02:05,768 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:07,269 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:08,272 INFO spawned: 'nginx' with pid 25
+2024-03-12 12:02:09,279 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:10,781 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:11,783 INFO spawned: 'nginx' with pid 28
+2024-03-12 12:02:12,790 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:14,291 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:15,294 INFO spawned: 'nginx' with pid 30
+2024-03-12 12:02:16,304 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:17,806 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:18,808 INFO spawned: 'nginx' with pid 31
+2024-03-12 12:02:19,815 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:21,316 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:22,319 INFO spawned: 'nginx' with pid 32
+2024-03-12 12:02:23,326 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:24,828 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:25,830 INFO spawned: 'nginx' with pid 33
+2024-03-12 12:02:26,837 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:26,837 WARN received SIGQUIT indicating exit request
+2024-03-12 12:02:26,837 INFO waiting for nginx, php-fpm to die
+2024-03-12 12:02:26,841 INFO stopped: php-fpm (exit status 0)
+2024-03-12 12:02:26,841 WARN stopped: nginx (terminated by SIGTERM)
+2024-03-12 12:02:27,761 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 12:02:27,765 INFO RPC interface 'supervisor' initialized
+2024-03-12 12:02:27,765 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 12:02:27,765 INFO supervisord started with pid 1
+2024-03-12 12:02:28,768 INFO spawned: 'nginx' with pid 15
+2024-03-12 12:02:28,770 INFO spawned: 'php-fpm' with pid 16
+2024-03-12 12:02:28,775 WARN exited: nginx (exit status 0; not expected)
+2024-03-12 12:02:29,785 INFO spawned: 'nginx' with pid 19
+2024-03-12 12:02:29,786 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:30,793 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:32,295 WARN exited: nginx (exit status 1; not expected)
+2024-03-12 12:02:33,297 INFO spawned: 'nginx' with pid 20
+2024-03-12 12:02:33,297 WARN received SIGQUIT indicating exit request
+2024-03-12 12:02:33,298 INFO waiting for nginx, php-fpm to die
+2024-03-12 12:02:33,301 INFO stopped: php-fpm (exit status 0)
+2024-03-12 12:02:33,301 WARN stopped: nginx (terminated by SIGTERM)
+2024-03-12 12:02:37,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 12:02:37,457 INFO RPC interface 'supervisor' initialized
+2024-03-12 12:02:37,458 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 12:02:37,458 INFO supervisord started with pid 1
+2024-03-12 12:02:38,460 INFO spawned: 'nginx' with pid 7
+2024-03-12 12:02:38,462 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 12:02:39,479 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:02:39,479 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:10:01,961 WARN received SIGQUIT indicating exit request
+2024-03-12 12:10:01,961 INFO waiting for nginx, php-fpm to die
+2024-03-12 12:10:01,965 INFO stopped: php-fpm (exit status 0)
+2024-03-12 12:10:02,064 INFO stopped: nginx (exit status 0)
+2024-03-12 12:12:28,951 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 12:12:28,958 INFO RPC interface 'supervisor' initialized
+2024-03-12 12:12:28,958 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 12:12:28,958 INFO supervisord started with pid 1
+2024-03-12 12:12:29,961 INFO spawned: 'nginx' with pid 7
+2024-03-12 12:12:29,963 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 12:12:30,978 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:12:30,978 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 12:13:45,059 INFO reaped unknown pid 96 (exit status 0)
+2024-03-12 12:28:55,047 INFO reaped unknown pid 151 (exit status 0)
+2024-03-12 12:29:10,063 INFO reaped unknown pid 172 (exit status 0)
+2024-03-12 12:29:22,076 INFO reaped unknown pid 194 (exit status 0)
+2024-03-12 12:29:26,080 INFO reaped unknown pid 224 (exit status 0)
+2024-03-12 12:30:00,119 INFO reaped unknown pid 268 (exit status 0)
+2024-03-12 13:27:26,977 INFO reaped unknown pid 303 (exit status 0)
+2024-03-12 13:28:03,015 INFO reaped unknown pid 355 (exit status 0)
+2024-03-12 13:28:22,034 INFO reaped unknown pid 401 (terminated by SIGINT)
+2024-03-12 13:28:27,039 INFO reaped unknown pid 434 (exit status 0)
+2024-03-12 13:49:48,362 WARN received SIGQUIT indicating exit request
+2024-03-12 13:49:48,362 INFO waiting for nginx, php-fpm to die
+2024-03-12 13:49:48,370 INFO stopped: php-fpm (exit status 0)
+2024-03-12 13:49:48,449 INFO stopped: nginx (exit status 0)
+2024-03-12 13:50:01,914 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 13:50:01,922 INFO RPC interface 'supervisor' initialized
+2024-03-12 13:50:01,922 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 13:50:01,922 INFO supervisord started with pid 1
+2024-03-12 13:50:02,925 INFO spawned: 'nginx' with pid 8
+2024-03-12 13:50:02,927 INFO spawned: 'php-fpm' with pid 9
+2024-03-12 13:50:03,945 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:50:03,945 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:54:41,224 WARN received SIGQUIT indicating exit request
+2024-03-12 13:54:41,224 INFO waiting for nginx, php-fpm to die
+2024-03-12 13:54:41,229 INFO stopped: php-fpm (exit status 0)
+2024-03-12 13:54:41,304 INFO stopped: nginx (exit status 0)
+2024-03-12 13:54:42,116 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 13:54:42,120 INFO RPC interface 'supervisor' initialized
+2024-03-12 13:54:42,120 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 13:54:42,120 INFO supervisord started with pid 1
+2024-03-12 13:54:43,123 INFO spawned: 'nginx' with pid 7
+2024-03-12 13:54:43,125 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 13:54:44,141 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:54:44,141 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:56:34,255 WARN received SIGQUIT indicating exit request
+2024-03-12 13:56:34,256 INFO waiting for nginx, php-fpm to die
+2024-03-12 13:56:34,260 INFO stopped: php-fpm (exit status 0)
+2024-03-12 13:56:34,324 INFO stopped: nginx (exit status 0)
+2024-03-12 13:56:47,233 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 13:56:47,239 INFO RPC interface 'supervisor' initialized
+2024-03-12 13:56:47,240 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 13:56:47,240 INFO supervisord started with pid 1
+2024-03-12 13:56:48,242 INFO spawned: 'nginx' with pid 7
+2024-03-12 13:56:48,244 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 13:56:49,258 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:56:49,258 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:59:30,437 WARN received SIGQUIT indicating exit request
+2024-03-12 13:59:30,438 INFO waiting for nginx, php-fpm to die
+2024-03-12 13:59:30,446 INFO stopped: php-fpm (exit status 0)
+2024-03-12 13:59:30,565 INFO stopped: nginx (exit status 0)
+2024-03-12 13:59:40,341 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 13:59:40,348 INFO RPC interface 'supervisor' initialized
+2024-03-12 13:59:40,348 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 13:59:40,348 INFO supervisord started with pid 1
+2024-03-12 13:59:41,351 INFO spawned: 'nginx' with pid 6
+2024-03-12 13:59:41,354 INFO spawned: 'php-fpm' with pid 7
+2024-03-12 13:59:42,376 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 13:59:42,376 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:07:45,208 WARN received SIGQUIT indicating exit request
+2024-03-12 15:07:45,208 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:07:45,212 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:07:45,269 INFO stopped: nginx (exit status 0)
+2024-03-12 15:07:46,149 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:07:46,153 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:07:46,153 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:07:46,153 INFO supervisord started with pid 1
+2024-03-12 15:07:47,156 INFO spawned: 'nginx' with pid 16
+2024-03-12 15:07:47,158 INFO spawned: 'php-fpm' with pid 17
+2024-03-12 15:07:48,171 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:07:48,172 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:08:35,220 WARN received SIGQUIT indicating exit request
+2024-03-12 15:08:35,220 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:08:35,223 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:08:35,313 INFO stopped: nginx (exit status 0)
+2024-03-12 15:08:36,150 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:08:36,154 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:08:36,154 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:08:36,154 INFO supervisord started with pid 1
+2024-03-12 15:08:37,157 INFO spawned: 'nginx' with pid 21
+2024-03-12 15:08:37,159 INFO spawned: 'php-fpm' with pid 22
+2024-03-12 15:08:38,172 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:08:38,172 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:08:48,184 WARN received SIGQUIT indicating exit request
+2024-03-12 15:08:48,185 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:08:48,189 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:08:48,276 INFO stopped: nginx (exit status 0)
+2024-03-12 15:08:49,308 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:08:49,312 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:08:49,312 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:08:49,312 INFO supervisord started with pid 1
+2024-03-12 15:08:50,315 INFO spawned: 'nginx' with pid 7
+2024-03-12 15:08:50,317 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 15:08:51,330 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:08:51,331 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:09:21,361 WARN received SIGQUIT indicating exit request
+2024-03-12 15:09:21,362 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:09:21,365 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:09:21,444 INFO stopped: nginx (exit status 0)
+2024-03-12 15:09:41,446 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:09:41,450 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:09:41,450 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:09:41,450 INFO supervisord started with pid 1
+2024-03-12 15:09:42,452 INFO spawned: 'nginx' with pid 7
+2024-03-12 15:09:42,454 INFO spawned: 'php-fpm' with pid 8
+2024-03-12 15:09:43,469 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:09:43,469 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:10:16,498 WARN received SIGQUIT indicating exit request
+2024-03-12 15:10:16,499 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:10:16,502 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:10:16,564 INFO stopped: nginx (exit status 0)
+2024-03-12 15:10:17,383 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:10:17,387 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:10:17,387 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:10:17,387 INFO supervisord started with pid 1
+2024-03-12 15:10:18,389 INFO spawned: 'nginx' with pid 17
+2024-03-12 15:10:18,390 INFO spawned: 'php-fpm' with pid 18
+2024-03-12 15:10:19,406 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:10:19,406 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:13:46,634 WARN received SIGQUIT indicating exit request
+2024-03-12 15:13:46,634 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:13:46,638 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:13:46,704 INFO stopped: nginx (exit status 0)
+2024-03-12 15:13:47,543 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:13:47,547 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:13:47,547 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:13:47,548 INFO supervisord started with pid 1
+2024-03-12 15:13:48,550 INFO spawned: 'nginx' with pid 16
+2024-03-12 15:13:48,552 INFO spawned: 'php-fpm' with pid 17
+2024-03-12 15:13:49,566 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:13:49,567 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:14:02,579 WARN received SIGQUIT indicating exit request
+2024-03-12 15:14:02,580 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:14:02,583 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:14:02,680 INFO stopped: nginx (exit status 0)
+2024-03-12 15:14:03,628 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:14:03,632 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:14:03,632 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:14:03,633 INFO supervisord started with pid 1
+2024-03-12 15:14:04,635 INFO spawned: 'nginx' with pid 17
+2024-03-12 15:14:04,637 INFO spawned: 'php-fpm' with pid 18
+2024-03-12 15:14:05,651 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:14:05,651 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:14:30,680 WARN received SIGQUIT indicating exit request
+2024-03-12 15:14:30,680 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:14:30,684 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:14:30,748 INFO stopped: nginx (exit status 0)
+2024-03-12 15:14:31,590 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:14:31,594 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:14:31,594 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:14:31,594 INFO supervisord started with pid 1
+2024-03-12 15:14:32,596 INFO spawned: 'nginx' with pid 16
+2024-03-12 15:14:32,598 INFO spawned: 'php-fpm' with pid 17
+2024-03-12 15:14:33,611 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:14:33,611 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:22:56,147 WARN received SIGQUIT indicating exit request
+2024-03-12 15:22:56,148 INFO waiting for nginx, php-fpm to die
+2024-03-12 15:22:56,152 INFO stopped: php-fpm (exit status 0)
+2024-03-12 15:22:56,228 INFO stopped: nginx (exit status 0)
+2024-03-12 15:22:57,126 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-03-12 15:22:57,130 INFO RPC interface 'supervisor' initialized
+2024-03-12 15:22:57,130 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2024-03-12 15:22:57,130 INFO supervisord started with pid 1
+2024-03-12 15:22:58,133 INFO spawned: 'nginx' with pid 15
+2024-03-12 15:22:58,135 INFO spawned: 'php-fpm' with pid 16
+2024-03-12 15:22:59,151 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-03-12 15:22:59,151 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
