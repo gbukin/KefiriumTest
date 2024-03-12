@@ -3,4 +3,4 @@ nginx/logs/error.log
 php-fpm/logs/
 postgres/data/*
 supervisord/logs/
-application/.idea
+.idea
