@@ -1,0 +1,5 @@
+nginx/logs/
+php-fpm/logs/
+postgres/data/*
+supervisord/logs/
+application/.idea
