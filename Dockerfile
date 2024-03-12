@@ -12,7 +12,8 @@ RUN apk add --update --no-cache \
 	nodejs \
 	npm \
 	libpq-dev \
-	bash
+	bash \
+    git
 
 RUN docker-php-ext-install pdo_pgsql pgsql curl \
     && docker-php-ext-enable pdo_pgsql \
@@ -27,4 +28,4 @@ EXPOSE 443 80
 
 WORKDIR /app
 
-CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]
+#CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]

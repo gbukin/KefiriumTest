@@ -2,8 +2,6 @@
 
 namespace Tests\Feature;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class GoogleAuthTest extends TestCase
@@ -11,10 +9,9 @@ class GoogleAuthTest extends TestCase
     /**
      * A basic feature test example.
      */
-    public function test_example(): void
+    public function test_has_google_oauth_route(): void
     {
-        $response = $this->get('/');
-
-        $response->assertStatus(302);
+        $this->assertTrue(\Route::has('google.redirect'));
+        $this->assertTrue(\Route::has('google.callback'));
     }
 }

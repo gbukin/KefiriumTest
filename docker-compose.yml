@@ -5,15 +5,23 @@ services:
     build: .
     image: kefirium-test:latest
     container_name: kefirium_app
+    environment:
+      - GOOGLE_CLIENT_ID=
+      - GOOGLE_CLIENT_SECRET=
+      - GOOGLE_REDIRECT_URL=/google/callback
+      - DB_HOST=kefirium_db
+      - DB_PORT=5432
+      - DB_DATABASE=kefirium
+      - DB_USERNAME=root
+      - DB_PASSWORD=root
+      - REDIS_HOST=kefirium_redis
+      - REDIS_PASSWORD=kefirium_redis_password
+      - REDIS_PORT=6379
     networks:
       - localhost
-#    environment:
-#      - VIRTUAL_HOST=127.0.0.1
-#      - VIRTUAL_PORT=80
     ports:
       - "80:80"
-    healthcheck:
-      test: ["CMD-SHELL", "php artisan test"]
+    entrypoint: ["bash", "/entrypoint.sh"]
     volumes:
       - ./application/:/app/
       - ./supervisord/config/supervisord.conf:/etc/supervisord.conf
@@ -21,6 +29,7 @@ services:
       - ./nginx/config/kefirium.conf:/etc/nginx/http.d/default.conf:rw
       - ./php-fpm/config/www.conf:/usr/local/etc/php-fpm.d/www.conf:rw
       - ./php-fpm/config/php.ini:/usr/local/etc/php/php.ini:rw
+      - ./entrypoint.sh:/entrypoint.sh:rw
       - type: bind
         source: ./nginx/logs
         target: /var/log/nginx
@@ -32,12 +41,6 @@ services:
         target: /var/log/supervisord
     depends_on:
       - postgres
-
-  application_postrun:
-    depends_on:
-      - application
-    restart: no
-    entrypoint: ["bash", "-c", ]
 
   postgres:
     image: postgres:15.2
