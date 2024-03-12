@@ -30,15 +30,6 @@ services:
       - ./php-fpm/config/www.conf:/usr/local/etc/php-fpm.d/www.conf:rw
       - ./php-fpm/config/php.ini:/usr/local/etc/php/php.ini:rw
       - ./entrypoint.sh:/entrypoint.sh:rw
-      - type: bind
-        source: ./nginx/logs
-        target: /var/log/nginx
-      - type: bind
-        source: ./php-fpm/logs
-        target: /var/log/php-fpm
-      - type: bind
-        source: ./supervisord/logs
-        target: /var/log/supervisord
     depends_on:
       - postgres
 

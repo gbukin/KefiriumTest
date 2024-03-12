@@ -1,6 +1,2 @@
-nginx/logs/access.log
-nginx/logs/error.log
-php-fpm/logs/
 postgres/data/*
-supervisord/logs/
 .idea
