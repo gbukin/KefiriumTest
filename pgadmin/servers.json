@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Kefirium Database",
+      "Group": "Servers",
+      "MaintenanceDB": "postgres",
+      "Host": "kefirium_db",
+      "Port": 5432,
+      "Username": "root",
+      "SSLMode": "prefer"
+    }
+  }
+}

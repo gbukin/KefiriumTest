@@ -6,9 +6,9 @@ composer run post-root-package-install
 composer run post-create-project-cmd
 
 test_status=$(php artisan test | grep "fail")
-if [ ${#test_status} != "0" ]; then
+if [ ${#test_status} != "0" ]; then # Если один из тестов не был успешным, отменяем запуск контейнера
   echo "PHPUnit test fail!";
-#  exit;
+  exit;
 fi
 
 php artisan migrate:fresh --quiet

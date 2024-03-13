@@ -32,6 +32,7 @@ services:
       - ./entrypoint.sh:/entrypoint.sh:rw
     depends_on:
       - postgres
+      - redis
 
   postgres:
     image: postgres:15.2
@@ -59,6 +60,33 @@ services:
         limits:
           cpus: '1'
           memory: 4G
+
+  pgadmin:
+    container_name: kefirium_pgadmin
+    image: dpage/pgadmin4
+    restart: no
+    networks:
+      - localhost
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@kefirium.com
+      - PGADMIN_DEFAULT_PASSWORD=root
+    volumes:
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:rw
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+
+  redis:
+    image: redis:latest
+    container_name: kefirium_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    environment:
+      - REDIS_PASSWORD=kefirium_redis_password
+      - REDIS_PORT=6379
+      - REDIS_DATABASES=16
 
 networks:
   localhost:
